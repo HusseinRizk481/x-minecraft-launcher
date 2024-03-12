@@ -61,7 +61,7 @@ export function useAllowThirdparty() {
     if (strictLocales.includes(locale)) return false
     return true
   })
-  return allowThirdParty
+  return true
 }
 
 export function useAuthorityItems(allowThirdparty: Ref<boolean>, services: Ref<YggdrasilApi[]>) {
