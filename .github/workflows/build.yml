@@ -12,6 +12,7 @@ on:
       - 'package.json'
       - 'pnpm-lock.yaml'
       - '.github/**'
+  workflow_dispatch:
 
 # env:
 #   ELECTRON_CACHE: ~/.cache/electron
